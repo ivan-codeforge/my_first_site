@@ -8,6 +8,7 @@
 </head>
 <body>
 
+  <!-- Навигация -->
   <nav class="menu">
     <a href="index.html">Главная</a>
     <a href="history.html">История</a>
@@ -15,22 +16,36 @@
     <a href="examples.html">Примеры</a>
   </nav>
 
+  <!-- Контент -->
   <div class="container page">
     <h1>Основы синтаксиса Python 🐍</h1>
 
-    <h2>Вывод текста</h2>
+    <h2>📌 Вывод текста</h2>
     <pre><code>print("Привет, мир!")</code></pre>
 
-    <h2>Переменные</h2>
-    <pre><code>x = 10
-name = "Ivan"</code></pre>
+    <h2>📌 Переменные</h2>
+    <pre><code>name = "Ivan"
+age = 17
+print(name, age)</code></pre>
 
-    <h2>Условия</h2>
-    <pre><code>if x > 5:
-    print("Больше 5")
+    <h2>📌 Условия</h2>
+    <pre><code>age = 18
+
+if age >= 18:
+    print("Доступ разрешён")
 else:
-    print("5 или меньше")</code></pre>
+    print("Доступ запрещён")</code></pre>
 
+    <h2>📌 Цикл for</h2>
+    <pre><code>for i in range(5):
+    print(i)</code></pre>
+
+    <h2>📌 Почему Python любят?</h2>
+    <ul>
+      <li>Читаемый синтаксис</li>
+      <li>Минимум кода</li>
+      <li>Подходит новичкам</li>
+    </ul>
   </div>
 
   <script src="script.js"></script>

@@ -72,3 +72,15 @@ p {
 .page {
   margin-top: 120px;
 }
+pre {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 15px;
+  border-radius: 10px;
+  overflow-x: auto;
+  margin: 15px 0;
+}
+
+code {
+  color: #ffd166;
+  font-family: Consolas, monospace;
+}

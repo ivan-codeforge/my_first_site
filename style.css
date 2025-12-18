@@ -84,3 +84,15 @@ code {
   color: #ffd166;
   font-family: Consolas, monospace;
 }
+pre {
+  background: rgba(0, 0, 0, 0.45);
+  padding: 16px;
+  border-radius: 12px;
+  overflow-x: auto;
+  margin: 16px 0;
+}
+
+code {
+  font-family: Consolas, monospace;
+  color: #ffd166;
+}

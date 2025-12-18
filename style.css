@@ -44,3 +44,28 @@ p {
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
+.menu {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.menu a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.menu .active {
+  opacity: 1;
+  text-decoration: underline;
+}

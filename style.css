@@ -69,3 +69,6 @@ p {
   opacity: 1;
   text-decoration: underline;
 }
+.page {
+  margin-top: 120px;
+}
